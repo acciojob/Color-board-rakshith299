@@ -2,10 +2,13 @@
     display: grid;
     grid-template-columns: repeat(40, 20px);
     grid-template-rows: repeat(20, 20px);
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 
 .square{
-	background-color: rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29);
     width: 20px;
     height: 20px;
     border: 1px solid black;
@@ -13,7 +16,6 @@
 
 
 .square:hover{
-	background-color: green;
-    transition: background-color 1s ease;
-    cursor: pointer;
+    background-color: red;
+    
 }
